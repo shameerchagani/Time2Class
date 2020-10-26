@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;600;800&family=Titillium+Web&family=Turret+Road:wght@800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Count Down Timer</title>
+</head>
+
+<body>
+    <main>
+        <center>
+            
+            <h1 class="pageHead" id="heading">CountDown to Any Date or Time</h1>
+            <span id="spacing">Time Till Next Class:</span>
+            <input type="number" id='d' min=1 max=31 placeholder="DD" autofocus aria-selected="true">/
+            <input type="number" id='m' min=1 max=12 placeholder="MM">/
+            <input type="number" id='y' min=2020 max=2100 placeholder="YYYY"> -
+            <input type="number" id='hh' min=0 max=23 placeholder="hh">:
+            <input type="number" id='mm' min=0 max=59 placeholder="mm">
+        </center>
+    </main>
+    <div id="time"></div>
+</body>
+<script src="main.js"></script>
+<!-- <script src="main2.js"></script> -->
+
+</html>
