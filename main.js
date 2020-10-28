@@ -8,58 +8,58 @@ $(function () {
     
    if (dte.getDay() === 1) {
         d.value = dte.getDate() + 2;
-        d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
+        //d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
         m.value = dte.getMonth() + 1;
-        m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
+        //m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
         y.value = dte.getFullYear();
         hh.value = 19;
         mm.value = 30;
     } else if (dte.getDay() === 2) {
         d.value = dte.getDate() + 1;
-        d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
+       // d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
         m.value = dte.getMonth() + 1;
-        m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
+       // m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
         y.value = dte.getFullYear();
         hh.value = 19;
         mm.value = 30;
     } else if (dte.getDay() === 3) {
         d.value = dte.getDate();
-        d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
+       // d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
         m.value = dte.getMonth() + 1;
-        m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
+       // m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
         y.value = dte.getFullYear();
         hh.value = 19;
         mm.value = 30;
     } else  if (dte.getDay() === 0){
         y.value = dte.getFullYear();
         m.value = dte.getMonth() + 1;
-        m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
+       // m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
         d.value = dte.getDate();
-        d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
+      //  d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
         hh.value = 17;
         mm.value = '00';
     } else  if (dte.getDay() === 4){
         y.value = dte.getFullYear();
         m.value = dte.getMonth() + 1;
-        m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
+      //  m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
         d.value = dte.getDate() + 3;
-        d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
+      //  d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
         hh.value = 17;
         mm.value = '00';
     }else  if (dte.getDay() === 5){
         y.value = dte.getFullYear();
         m.value = dte.getMonth() + 1;
-        m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
+      //  m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
         d.value = dte.getDate() + 2;
-        d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
+     //   d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
         hh.value = 17;
         mm.value = '00';
     }else  if (dte.getDay() === 6){
         y.value = dte.getFullYear();
         m.value = dte.getMonth() + 1;
-        m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
+      //  m.value = m.value > 12 ? alert('Something is not right with the month \nPlease check and correct Manually') : m.value;
         d.value = dte.getDate() + 1;
-        d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
+      //  d.value = d.value > 31 ? alert('Something is not right with the date \nPlease check and correct Manually') : d.value;
         hh.value = 17;
         mm.value = '00';
     } else {
